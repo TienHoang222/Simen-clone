@@ -1,0 +1,88 @@
+:root {
+ --white-color: #fff;
+ --black-color:#000;
+ --text-color: #333;
+}
+
+* {
+ box-sizing: inherit;
+}
+
+html {
+ font-size: 62.5%;
+ line-height: 2rem;
+ font-family: 'Poppins', sans-serif;
+ box-sizing: border-box;
+}
+
+.grid {
+ width: 1200px;
+ max-width: 100%;
+ margin: 0 auto;
+}
+
+.grid__full-width {
+ width: 100%;
+}
+
+.grid__row {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+/* Common */
+
+/* Button */
+.btn {
+ margin-top: 9px;
+ font-size: 1.3rem;
+ padding: 8px 30px;
+ border: none;
+ outline: none;
+ background-color: #222222;
+ color: #fff;
+ text-transform: uppercase;
+ cursor: pointer;
+ font-weight: 500;
+}
+
+.btn:hover {
+ background-color: #e34444;
+ transition: all ease 0.25s;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+ from {
+  top: 130%;
+  opacity: 0;
+ }
+ to {
+  top: 100%;
+  opacity: 1;
+ }
+}
+
+@keyframes fill {
+ from {
+  top: 100%;
+  /* transform: translateX(-50%) rotate(0deg); */
+ }
+ to {
+  top: 0;
+  /* transform: translateX(-50%) rotate(360deg); */
+ }
+}
+
+@keyframes grow {
+ from {
+ transform: scale(0);
+ opacity: 0;
+ }
+ to {
+  transform: scale(1);
+  opacity: 1;
+ }
+}

@@ -1,0 +1,304 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+ .mobile-tablet-menu {
+  display: flex;
+ }
+ 
+ .header__link {
+  font-size: 1.2rem;
+ }
+
+ .mobile-tablet-menu__anchor {
+   font-size: 1.3rem;
+ }
+
+ .mobile-tablet-navbar__icon {
+   font-size: 2rem;
+ }
+ 
+ .mobile-tablet-menu__list span {
+   font-size: 1rem;
+ }
+
+ .banner__information {
+  display: none;
+ }
+
+ .header__list:nth-child(2) {
+  display: none;
+ } 
+ 
+ .banner__link {
+  justify-content: center;
+ }
+ .container__list {
+  display: none;
+ }
+
+ .container__mobile-tablet-navbar {
+  display: block;
+ }
+  
+ .new-product-banner__img {
+  padding-top: 200px;
+ }
+
+ .new-product-banner-infor {
+  padding: 0;
+ }
+ 
+ .new-product-banner-name {
+   font-size: 2.2rem;
+ }
+  
+ .container__product-old-price {
+    font-size: 1rem;
+  }
+
+ .container__product-new-price {
+   font-size: 1.2rem;
+  }
+
+ .btn {
+  font-size: 1.3rem;
+  padding: 7.1px 30px;
+ }
+
+ .footer__heading {
+   font-size: 1.4rem;
+ }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+ .search {
+   width: 648px;
+   left: -458px;
+ }
+ 
+ .container__product-image {
+  padding-top: 170px;
+ }
+
+ .container__showcase-product {
+  height: 330px;
+ }
+ 
+ .container__showcase-product-link {
+  height: 235px;
+ }
+
+ .container__img-left {
+  padding-top: 457px;
+}
+
+ .container__img-right-top {
+  padding-top: 149px;
+ }
+
+ .container__img-right-bottom-1, 
+ .container__img-right-bottom-2 {
+  padding-top: 143px;
+ }
+
+ .container__sale-product-bottom {
+  margin-top: 10.315px;
+ }
+
+ .category__link {
+  font-size: 1.5rem;
+ }
+ 
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+ .app {
+  overflow: hidden;
+ }
+
+ .app-container {
+  margin: 0 8px;
+ } 
+ 
+ .header__item {
+   font-size: 1.3rem;
+ }
+
+ .banner__link > img {
+  margin-bottom: 30px;
+ }
+
+ .search {
+  width: 280px;
+  left: -135.5px;
+ }
+
+ .container__cart-link {
+  margin-right: 0;
+ }
+
+ .container__img-left {
+  padding-top: 387px;
+ }
+
+ .container__img-right-top {
+  padding-top: 179px;
+ }
+
+ .container__img-right-top::after,
+ .container__img-right-top::before {
+  display: none;
+ }
+
+ .container__img-right-bottom-1,
+ .container__img-right-bottom-2 {
+  padding-top: 187px;
+ }
+
+ .container__img-right-bottom-1::after,
+ .container__img-right-bottom-2::after,
+ .container__img-right-bottom-1::before,
+ .container__img-right-bottom-2::before {
+  display: none;
+ }
+
+ .category__link {
+  font-size: 1.3rem;
+ }
+
+ .container__search {
+   font-size: 1.9rem;
+ }
+ 
+ .container__product-image {
+  padding-top: 120px;
+ }
+
+ .container__product-new-price {
+   font-size: 1.25rem;
+ }
+
+ .container__new-product-banner {
+  display: block;
+  height: auto;
+ }
+
+ .new-product-banner-infor {
+  padding-top: 0;
+ }
+
+ .new-product-banner-name {
+  font-size: 2.4rem;
+  text-align: center;
+  margin-top: 0;
+ }
+
+ .new-product-banner-sup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+ }
+
+ .new-product-banner-description {
+  font-size: 1.25rem;
+ }
+
+ .container__new-product-banner .btn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+ }
+
+ .container__product-name  {
+   font-size: 1.2rem;
+ }
+
+ .footer {
+  padding: 15px 35px;
+ }
+
+ .footer__heading {
+  font-size: 1.2rem;
+ }
+
+ .footer__inform span {
+  font-size: 1.1rem;
+ }
+
+ .footer__link {
+   font-size: 1.1rem;
+ }
+ 
+ .footer__email-input {
+  width: 45%;
+  margin-right: 5px;
+ }
+ 
+ .load-more-btn {
+   font-size: 1rem;
+   font-weight: 400;
+ }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+ .container__link {
+  font-size: 1rem;
+ }
+ 
+ .search {
+   width: 980px;
+   left: -810px;
+ }
+
+ .banner__title {
+   font-size: 1.15rem;
+ }
+
+ .banner__heading {
+   font-size: 1rem;
+ }
+ 
+ .furniture__menu {
+  width: 982px;
+  left: -80px;
+ }
+ 
+
+ .container__cart {
+   font-size: 1rem;
+ }
+
+ .container__icon {
+   font-size: 1.1rem;
+ }
+
+ .container__showcase-product-link {
+  height: 235px;
+ }
+
+ .container__img-left {
+  padding-top: 457px;
+}
+
+ .container__img-right-top {
+  padding-top: 219px;
+ }
+
+ .container__img-right-bottom-1, 
+ .container__img-right-bottom-2 {
+  padding-top: 230px;
+ }
+
+ .container__sale-product-bottom {
+  margin-top: 10.315px;
+ }
+
+ .footer__heading {
+  font-size: 1.5rem;
+ }
+
+
+}
